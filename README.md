@@ -8,7 +8,7 @@ id int(11) AUTO_INCREMENT PRIMARY KEY,
 IP varchar(64) NOT NULL UNIQUE
 ) DEFAULT CHARSET=utf8;
 
-~~~sql
+~~~
 
 ~~~sql
 INSERT INTO `bots` (`id`, `IP`) VALUES
@@ -2072,4 +2072,4 @@ INSERT INTO `bots` (`id`, `IP`) VALUES
 (9304, '95.91.74.120'),
 (1357, '95.91.75.233'),
 (1483, '96.30.145.19');
-~~~sql
+~~~
